@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+tqdm
+scikit-learn
+opencv-python
+pandas
+librosa
+whisperx
+batch-face
+tensorboard
