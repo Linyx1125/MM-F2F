@@ -55,23 +55,7 @@ python inference.py --input_path "example/input_1.mp4" \
 
 ### Prepare Dataset
 
-To train with our MM-F2F dataset, see [prepare MM-F2F](#).
-
-The data structure is as follows:
-
-```bash
-<path/to/dataset>
-  └─ audio
-    └─ <video_id>
-      └─ <sentence_id>.mp3
-  └─ video
-    └─ <video_id>
-      └─ <sentence_id>
-        └─ id.jpg
-  ├─ train.csv
-  ├─ val.csv
-  ├─ test.csv
-```
+To train with our MM-F2F dataset, see [prepare MM-F2F](https://github.com/Linyx1125/MM-F2F/blob/master/dataset/README.md).
 
 ### Train uni-modal models:
 
